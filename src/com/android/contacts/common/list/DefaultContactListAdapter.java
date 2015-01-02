@@ -198,9 +198,6 @@ public class DefaultContactListAdapter extends ContactListAdapter {
         }
 
         bindNameAndViewId(view, cursor);
-        if (isQuickCallButtonEnabled()) {
-            bindQuickCallView(view, cursor);
-        }
         bindPresenceAndStatusMessage(view, cursor);
 
         if (isSearchMode()) {
